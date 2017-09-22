@@ -48,7 +48,9 @@ namespace Werewolf_Node
         private int _joinMsgId;
         private string FirstMessage = "";
         private DateTime LastJoinButtonShowed = DateTime.MinValue;
+        private DateTime LastfleeButtonShowed = DateTime.MinValue;
         private InlineKeyboardMarkup _joinButton;
+        private InlineKeyboardMarkup _fleeButton;
         private List<int> _joinButtons = new List<int>();
         private int _playerListId = 0;
         public bool RandomMode = false;
